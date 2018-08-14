@@ -1,0 +1,59 @@
+h1, h2 {
+  font-family: arial, 'sans-serif';
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+.nav-icons a {
+  color: #ccc;
+  text-decoration: none;
+}
+body {
+  font-family: arial, 'sans-serif';
+}
+.heading-group-h1 {
+  background-color: rgb(255, 234, 169);
+}
+
+address, time {
+  display: inline-block;
+  color: #ccc;
+}
+
+address a {
+  font-style: italic, bold;
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+
+.byline {
+  color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+  .icon-menu {
+    display: none;
+  }
+
+}

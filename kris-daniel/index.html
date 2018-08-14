@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Lab 1</title>
   <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
-  <meta name="viewport" content="width-device-width, initial-scale-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
   <link rel="stylesheet" href="vendor/styles/normalize.css">
@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="vendor/styles/icons.css">
 
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" href="vendor/styles/base.css">
-  <link rel="stylesheet" href="vendor/styles/layout.css">
-  <link rel="stylesheet" href="vendor/styles/modules.css">
+  <link rel="stylesheet" href="./vendor/styles/base.css">
+  <link rel="stylesheet" href="./vendor/styles/layout.css">
+  <link rel="stylesheet" href="./vendor/styles/modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- The CSS files are run in the same order that they are presented to the browser. This means that the last linked stylesheet has the most priority in styling elemnts. We start with normalize.css to have every screen set to a standard template then continue linking stylesheets from the broadest stlying to the most specific. -->
@@ -38,7 +38,7 @@
     <nav>
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
       <li><a href="index.html" class="icon-menu"></a></li>
-      <ul>
+      <ul class="nav-icons">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
@@ -52,7 +52,7 @@
           <header>
             <h1>Bob Ross Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
-            <div>
+            <div class='byline'>
               By <address><a href="https://en.wikipedia.org/wiki/Bob_Ross">Bob Ross</a></address>
               published <time datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
@@ -63,7 +63,7 @@
       <article class="clearfix" data-category="baseball">
           <header>
             <h1>Baseball Ipsum</h1>
-            <div>
+            <div class='byline'>
               By <address><a href="http://www.baseball-reference.com/players/h/hernafe02.shtml">Felix Hernandez</a></address>
               published <time datetime="2015-11-04" title="2015-11-04">about 719 days ago</time>
             </div>
@@ -73,7 +73,7 @@
       <article class="clearfix" data-category="cat">
           <header>
             <h1>Cat Ipsum</h1>
-            <div>
+            <div class='byline'>
               By <address><a href="https://http.cat/">Meow Meow</a></address>
               published <time datetime="2015-11-03" title="2015-11-03">about 720 days ago</time>
             </div>
