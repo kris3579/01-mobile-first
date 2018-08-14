@@ -15,8 +15,9 @@
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-08-14-2018 9:26am - The site now has a Meta tag, stylesheet links, along with comments re: clearfix.
-08-14-2018 9:31am - 
+08-14-2018 9:26am - The site now has a Meta tag, stylesheet links. This finishes the first 3 TODO's.
+08-14-2018 9:31am - This commit adds comments on the clearfix. 
+08-14-2018 9:44am - Added hamburger menu icon.
 
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
