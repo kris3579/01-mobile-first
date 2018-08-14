@@ -10,11 +10,14 @@ li {
   color: #ccc;
   text-decoration: none;
 }
+
 body {
   font-family: arial, 'sans-serif';
 }
-.heading-group-h1 {
+.headermain {
   background-color: rgb(255, 234, 169);
+  box-sizing: border-box;
+  padding: 0px 0px 5px 10px;
 }
 
 address, time {
@@ -56,4 +59,37 @@ address a {
     display: none;
   }
 
+}
+
+@media (max-width: 480px) {
+  .article-body img {
+    width: 100%;
+  }
+
+  .icon-menu {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-icons {
+    display: none;
+  }
+
+  nav:hover ul{ 
+    display: block;
+    margin-right:30px;
+
+  }
+  nav:hover ul li {
+    display: block;
+    font-size: 2em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 5px;
+  }
+
+  .heading-group-h1 h1 {
+    display: inline-block;
+    margin-right: 40%
+  }
 }
